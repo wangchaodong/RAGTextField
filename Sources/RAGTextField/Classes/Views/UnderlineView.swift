@@ -174,7 +174,7 @@ open class UnderlineView: UIView {
         
         // Always be as high as the underline
         let onePixel = 1.0 / UIScreen.main.scale
-        underlineBackgroundView.heightAnchor.constraint(equalToConstant: onePixel).isActive = true
+        underlineBackgroundView.heightAnchor.constraint(equalToConstant: 2).isActive = true
     }
     
     /// Sets up the underline view. Sets properties and configures constraints.
